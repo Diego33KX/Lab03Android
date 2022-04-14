@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ComponentsUI</string>
+    <string name="texto">Android ScrollView Examples</string>
+    <string name="enter_your_first_name">Enter Your First Name</string>
+    <string name="enter_your_last_name">Enter Your Last Name</string>
+    <string name="register">Register</string>
+    <string name="among_the_layouts_given_below_which_one_you_found_the_easiest_one">Among the layouts given below, which one you found the easiest one ?</string>
+    <string name="android_switch_button_1">Android Switch Button 1</string>
+    <string name="android_switch_button_2">Android Switch Button 2</string>
+    <string name="android_switch_button">Android Switch Button</string>
+    <string name="enter_a_number_bettwen_0_and_100">Enter a number bettwen 0 and 100</string>
+
+
+    <string-array name="android_layout_arrays">
+        <item>Choose a Layout</item>
+        <item>LinearLayout</item>
+        <item>RelativeLayout</item>
+        <item>FrameLayout</item>
+        <item>TableLayout</item>
+        <item>AbsoluteLayout</item>
+        <item>GridLayout</item>
+    </string-array>
+
+
+</resources>

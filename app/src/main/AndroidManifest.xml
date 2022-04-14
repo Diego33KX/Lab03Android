@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.diego.lab03">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Lab03">
+        <activity
+            android:name=".FloatingLabelsActivity"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".SnackbarActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".FloatingActionButtonActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".SimpleDialogActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".CustomAlertDialogActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".SeekBarActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".TimePickerActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".DatePickerActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".ProgressBarActivity"
+            android:exported="false">
+
+        </activity>
+        <activity
+            android:name=".SpinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RatingBarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ToggleButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SwitchButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RadioButtontActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CheckBoxActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditTextActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ImageButtonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AndroidButtonActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ScrollViewHorizontalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ScrollViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

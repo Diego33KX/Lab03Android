@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnSimpleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#25aaff"
+            android:padding="10dp"
+            android:text="This is Simple Android Button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnButtonIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#25aaff"
+            android:drawableLeft="@android:drawable/sym_call_outgoing"
+            android:padding="10dp"
+            android:text="Button With Icon in Left" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#25aaff"
+            android:drawableRight="@android:drawable/sym_call_outgoing"
+            android:onClick="callRightIconButton"
+            android:padding="10dp"
+            android:text="Button With Icon in Right" />
+
+        <androidx.appcompat.widget.AppCompatButton
+
+            android:layout_width="299dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_button"
+            android:onClick="callBackgroundImageButton"
+            android:padding="10dp"
+            android:text="Button With Background Image"
+            android:textAlignment="center"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="250dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/button_border"
+            android:onClick="callRightIconButton"
+            android:padding="10dp"
+            android:text="Button With Border Color" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/border_radius"
+            android:onClick="callBorderRadiusButton"
+            android:padding="10dp"
+            android:text="Button With Border Radius" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/round_button"
+            android:onClick="callRoundButton"
+            android:padding="10dp"
+            android:text="Round Button" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            style="@style/Widget.AppCompat.Button"
+            android:background="@drawable/bg_gradient"
+            android:onClick="callMaterialDesignButton"
+            android:textSize="18sp"
+            android:text="Material Design Button "  />
+
+    </LinearLayout>
+</ScrollView>
